@@ -153,5 +153,8 @@ print("Cleaning completed!")
 ```
 <img width="715" height="703" alt="image" src="https://github.com/user-attachments/assets/18592e5d-5d97-4c0d-b46a-db9452f895b1" />
 
+## Summary 
+In this experiment, we performed data cleaning using Python and the Pandas library. We identified and handled missing values by replacing them with suitable values, removed duplicate records, and checked inconsistent data. We also detected outliers using the IQR and Z-score methods and verified the consistency of total marks. Finally, we saved the cleaned datasets into CSV files for further analysis.
+
 # Result:
 Thus the given data successfully performed data cleaning and saved the cleaned data to a file.
