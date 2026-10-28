@@ -10,18 +10,15 @@ To read the given data and perform data cleaning and save the cleaned data to a 
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information.
 
 # Algorithm
-STEP 1: Read the given Data
+STEP 1: Read the given dataset using Python.
 
-STEP 2: Get the information about the data
+STEP 2: Display the dataset information and identify missing values.
 
-STEP 3: Remove the null values from the data
+STEP 3: Clean the dataset by handling missing values, duplicate records, and incorrect data.
 
-STEP 4: Save the Clean data to the file
+STEP 4: Detect and remove outliers using the IQR and Z-score methods.
 
-STEP 5: Remove outliers using IQR
-
-STEP 6: Use zscore of to remove outliers
-
+STEP 5: Save the cleaned dataset to a file.
 # Coding and Output:
 
 ```
@@ -152,6 +149,11 @@ df.to_csv("SAMPLEIDS_cleaned.csv", index=False)
 print("Cleaning completed!")
 ```
 <img width="715" height="703" alt="image" src="https://github.com/user-attachments/assets/18592e5d-5d97-4c0d-b46a-db9452f895b1" />
+
+
+# Summary:
+
+The given datasets were read and analyzed using the Python Pandas library. The dataset information, data types, and missing values were examined to understand the quality of the data. Missing values were handled using appropriate methods such as median and mode, and duplicate records were removed wherever necessary. Inconsistent data, duplicate registration numbers, and incorrect total marks were also checked. Outliers in numerical data were identified using the Interquartile Range (IQR) and Z-score methods. The cleaned datasets were saved into separate CSV files for future use. Thus, the data cleaning process improved the quality and reliability of the datasets and made them suitable for further analysis.
 
 
 # Result:
